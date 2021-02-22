@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Maloo Radio Button Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <fluent-design-system-provider use-defaults>
+
+        <design-property-panel></design-property-panel>
+
+        <maloo-radio-group value="A">
+            <maloo-radio value="A"><div slot="start" class="clock"></div>Option A</maloo-radio>
+            <maloo-radio value="B"><div slot="start" class="bike"></div>Option B</maloo-radio>
+            <maloo-radio value="C"><div slot="start" class="bug"></div>Option C</maloo-radio>
+        </maloo-radio-group>
+        <maloo-radio-group value="B" disabled>
+            <maloo-radio value="A"><div slot="start" class="clock"></div>Option A</maloo-radio>
+            <maloo-radio value="B"><div slot="start" class="bike"></div>Option B</maloo-radio>
+            <maloo-radio value="C"><div slot="start" class="bug"></div>Option C</maloo-radio>
+        </maloo-radio-group>
+        <maloo-radio-group value="C" orientation="vertical">
+            <maloo-radio value="A"><div slot="start" class="clock"></div>Option A</maloo-radio>
+            <maloo-radio value="B"><div slot="start" class="bike"></div>Option B</maloo-radio>
+            <maloo-radio value="C"><div slot="start" class="bug"></div>Option C</maloo-radio>
+        </maloo-radio-group>
+
+    </fluent-design-system-provider>
+</body>
+
+</html>
